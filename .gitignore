@@ -1,0 +1,124 @@
+# ============================================================
+#  .gitignore — AI-Powered Loan Eligibility Advisory System
+# ============================================================
+
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+Project/Backend/venv/
+Project/venv/
+"Project code/__pycache__"/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ---------------------------
+# Flask / Web App
+# ---------------------------
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded user files (runtime data)
+uploads/
+Project/Backend/uploads/
+"Project code/uploads"/
+
+# ---------------------------
+# Machine Learning Models
+# ---------------------------
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+models/*.pkl
+models/*.joblib
+"Project code/models/"
+
+# ---------------------------
+# Datasets (large files)
+# ---------------------------
+*.csv
+*.xlsx
+*.xls
+
+# ---------------------------
+# Node / JavaScript
+# ---------------------------
+node_modules/
+Project/Frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ---------------------------
+# Environment / Secrets
+# ---------------------------
+.env
+.env.*
+*.env
+secrets.py
+config_local.py
+
+# ---------------------------
+# OS & Editor artifacts
+# ---------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# ---------------------------
+# Temporary / misc
+# ---------------------------
+temp
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+~$*
