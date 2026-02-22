@@ -5,3 +5,5 @@ pandas
 fpdf
 pytesseract
 Pillow
+reportlab
+openpyxl
